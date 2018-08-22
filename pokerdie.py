@@ -71,23 +71,3 @@ class PokerApp:
             if roll < 3:
                 toRoll = self.interface.chooseDice()
 
-
-class PokerInterface:
-    def __init__(self):
-        pass
-
-    def wantsToPlay(self):
-        pass
-
-    def setMoney(self):
-        pass
-
-    def showResult(self):
-        pass
-
-    def setDice(self, c):
-        pass
-
-    def chooseDice(self):
-        pass
-
