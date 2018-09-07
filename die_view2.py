@@ -1,4 +1,4 @@
-# die_view.py
+# die_view2.py
 from graphics import *
 
 
@@ -42,7 +42,6 @@ class DieView:
                         [0,2,3,4,6], [0,1,2,4,5,6]]
 
         self.setValue(1)
-
 
     def __makePip(self, x, y):
         """Internal helper method to draw a pip at (x,y)"""
